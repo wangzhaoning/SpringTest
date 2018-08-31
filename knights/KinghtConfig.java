@@ -9,7 +9,6 @@ public class KinghtConfig {
 	public knight knightTest() {
 		return new  BraveKnight(quest());
 	}
-	
 	@Bean
 	public Quest quest() {
 		return new SlayDragonQuest(System.out);
